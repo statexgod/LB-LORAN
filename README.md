@@ -8,12 +8,12 @@ docker run --name loran-emulator -p 4002:4000 iperekrestov/university:loran-emul
 wscat -c ws://localhost:4002  
 
 Веб-додаток підключається до WebSocket сервера та зчитує дані про часи отримання сигналів базовими станціями. Обробляє дані отримані через вебсокет і відображає  положення об'єкта і базових станцій на графіку.  
-![Радар](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/1.png)  
-![Точка](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/2.png)    
-![Код](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/4.png)  
-![Код](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/5.png)  
-![Код](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/6.png)  
-![Код](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/7.png)  
+![Радар](1.png)  
+![Точка](2.png)    
+![Код](4.png)  
+![Код](5.png)  
+![Код](6.png)  
+![Код](7.png)  
 Можливість зміни параметрів вимірювальної частини радара за допомогою API запитів.  
-![Изменения](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/3.png)  
-![Код](https://github.com/MKroppp/LB-LORAN/blob/main/Screenshots/8.png)  
+![Изменения](3.png)  
+![Код](8.png)  
